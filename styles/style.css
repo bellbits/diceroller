@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-family: arial;
+}
+
+
+button {
+  background-color: brown;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 16px 31px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.clear {
+  background-color: grey;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.title {
+   font-size: 28px;
+  font-weight: bold;
+  margin: 10px 10px 10px 0px;
+}
+
+.number {
+     font-size: 28px;
+  font-weight: bold;
+  color: orange;
+}
+
+.second {
+  margin: 10px 10px 10px 0px;
+}
+
+.result{
+  background-color: #155843;
+  margin: 10px 10px 10px 0px;
+  width: 700px;
+   padding: 10px 10px 10px 10px;
+       font-size: 18px;
+  color: orange;
+}
