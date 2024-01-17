@@ -3,7 +3,6 @@ body {
   font-family: arial;
 }
 
-
 button {
   background-color: brown;
   border: none;
@@ -30,13 +29,13 @@ button {
 }
 
 .title {
-   font-size: 28px;
+  font-size: 28px;
   font-weight: bold;
   margin: 10px 10px 10px 0px;
 }
 
 .number {
-     font-size: 28px;
+  font-size: 28px;
   font-weight: bold;
   color: orange;
 }
@@ -45,11 +44,11 @@ button {
   margin: 10px 10px 10px 0px;
 }
 
-.result{
+.result {
   background-color: #155843;
   margin: 10px 10px 10px 0px;
   width: 700px;
-   padding: 10px 10px 10px 10px;
-       font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
   color: orange;
 }

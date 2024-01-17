@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>diceroller</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>diceroller</title>
 
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./styles/style.css">
-  
-</head>
-
-<body>
-  <div class = "container">
-    <div class ="row">
-      <div class = col-md-3>
-    <img src="./images/dice.jpg" alt="dice picture courtesy of Bing Image Creator">
-  </div>
-  <div class = col-md-9>
-    <div class = "title">
-     DiceRoller
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img
+            src="./images/dice.jpg"
+            alt="dice picture courtesy of Bing Image Creator"
+          />
+        </div>
+        <div class="col-md-9">
+          <div class="title">DiceRoller</div>
+          <div class="second">
+            Number of Dice
+            <input
+              id="diceQty"
+              type="number"
+              value="1"
+              min="1"
+              max="8"
+              size="4"
+            />
+            <button id="clear" class="clear">Clear</button>
+          </div>
+          <div>
+            <button id="button4">D4</button>
+            <button id="button6">D6</button>
+            <button id="button8">D8</button>
+            <button id="button10">D10</button>
+            <button id="button12">D12</button>
+            <button id="button20">D20</button>
+            <button id="button100">D100</button>
+          </div>
+          <div id="result" class="result">Nothing rolled yet . . .</div>
+        </div>
+      </div>
     </div>
-    <div class = "second">
-    Number of Dice <input id='diceQty' type="number" value="1" min="1" max="8" size='4'> <button id="clear" class="clear"> Clear </button>
-    </div>
-  <div>
-    <button id="button4">D4</button>
-    <button id="button6">D6</button>
-    <button id="button8">D8</button>
-    <button id="button10">D10</button>
-    <button id="button12">D12</button>
-    <button id="button20">D20</button>
-    <button id="button100">D100</button>
-  </div>
-  <div id="result" class="result">
-   Nothing rolled yet . . .
-  </div>
-  </div>
-  </div>
-  </div>
-  <script  src="./scripts/script.js"></script>
-
-</body>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
